@@ -1,0 +1,355 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .main {
+        height: 600px;
+        width: 700px;
+        background: transparent;
+        box-shadow: 0 0 10px;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding-top: 50px;
+        display: flex;
+        position: relative;
+    }
+    
+    .main .con1 {
+        height: 500px;
+        width: 50%;
+        position: relative;
+    }
+    
+    .main .con1 .side {
+        height: 515px;
+        width: 100%;
+        /* background: violet; */
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+        position: absolute;
+        top: 0;
+        left: -50px;
+    }
+    
+    .main .con1 .side .top {
+        height: 435px;
+        width: 100%;
+        background-color: rgb(65, 252, 59);
+        border-radius: 10px 10px 0 0;
+        position: relative;
+    }
+    
+    .main .con1 .side .top .fa-share-nodes {
+        margin: 15px;
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .main .con1 .side .top .fa-heart {
+        margin: 15px;
+        font-size: 30px;
+        color: #fff;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    
+    .main .con1 .side .top img {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 40px;
+        right: 30px;
+    }
+    
+    .main .con1 .side .bot {
+        height: 80px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main .con1 .bot .xa {
+        height: 60px;
+        width: 60px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .main .con1 .bot .xa .pa {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .main .con1 .bot .xb {
+        height: 60px;
+        width: 60px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .main .con1 .bot .xb .pb {
+        height: 80%;
+        width: 70%;
+    }
+    
+    .main .con1 .bot .xc {
+        height: 60px;
+        width: 60px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        transform: rotate(180deg);
+        margin-right: 10px;
+    }
+    
+    .main .con1 .bot .xc .pc {
+        height: 80%;
+        width: 70%;
+    }
+    
+    .main .con1 .bot .xd {
+        height: 60px;
+        width: 60px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .main .con1 .bot .xd .pd {
+        height: 80%;
+        width: 80%;
+    }
+    
+    .main .con2 {
+        height: 500px;
+        width: 50%;
+        background: transparent;
+        padding: 10px;
+    }
+    
+    .main .con2 .apple {
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .main .con2 .cod {
+        font-size: 1;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+        color: gray;
+        display: flex;
+    }
+    
+    .main .con2 .cod .num {
+        margin: 3px;
+    }
+    
+    .main .con2 .rs {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 60px;
+        color: red;
+        display: flex;
+    }
+    
+    .main .con2 .rs .rp {
+        margin-top: -30px;
+        margin-left: 15px;
+        font-size: 4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    }
+    
+    .main .con2 .col {
+        font-size: 1;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+        color: gray;
+        display: flex;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .main .con2 .img {
+        margin-top: 8px;
+        height: 50px;
+        /* background: lightseagreen; */
+        display: flex;
+        align-items: center;
+    }
+    
+    .main .con2 .img .gda {
+        height: 50px;
+        width: 50px;
+        position: relative;
+    }
+    
+    .main .con2 .img .gda::after {
+        content: "";
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgba(184, 180, 183, .9);
+        border-radius: 5px;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .5s;
+    }
+    
+    .main .con2 .img .ga {
+        height: 50px;
+        width: 50px;
+        margin-top: -2px;
+        margin-left: 2px;
+        margin-right: 15px;
+    }
+    
+    .main .con2 .img .yda {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin-left: 5px;
+    }
+    
+    .main .con2 .img .yda::after {
+        content: "";
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgba(184, 180, 183, .9);
+        border-radius: 5px;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .5s;
+    }
+    
+    .main .con2 .img .ya {
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+    
+    .main .con2 .img .rda {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin-left: 5px;
+    }
+    
+    .main .con2 .img .rda::after {
+        content: "";
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgba(184, 180, 183, .9);
+        border-radius: 5px;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .5s;
+    }
+    
+    .main .con2 .img .ra {
+        height: 50px;
+        width: 50px;
+        margin: 2px 5px 0 2px;
+    }
+    
+    .main .con2 .img .rgda {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin-left: 5px;
+    }
+    
+    .main .con2 .img .rgda::after {
+        content: "";
+        height: 50px;
+        width: 50px;
+        border: 1px solid rgba(184, 180, 183, .9);
+        border-radius: 5px;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: .5s;
+    }
+    
+    .main .con2 .img .rga {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .main .con2 .img .gda:hover::after {
+        opacity: 1;
+    }
+    
+    .main .con2 .img .yda:hover::after {
+        opacity: 1;
+    }
+    
+    .main .con2 .img .rda:hover::after {
+        opacity: 1;
+    }
+    
+    .main .con2 .img .rgda:hover::after {
+        opacity: 1;
+    }
+    
+    .main .con2 .ben {
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1;
+        color: gray;
+        letter-spacing: 1px;
+    }
+    
+    .main .con2 ul {
+        margin: 10px 0 0 16px;
+        padding: 0px;
+    }
+    
+    .main .con2 ul li {
+        /* list-style: none; */
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .main .con2 .cart {
+        margin: 40px 0 0 0;
+        height: 50px;
+        width: 200px;
+        background-color: rgb(248, 51, 51);
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 20px gray;
+    }
